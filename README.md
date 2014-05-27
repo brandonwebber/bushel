@@ -1,4 +1,4 @@
-bushel.github.io
+bushel
 ================
 
 Landing page for the bushel project.
