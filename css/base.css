@@ -1,86 +1,98 @@
 
 /* Table of Contents
 ==================================================
-	#Reset & Basics
-	#Basic Styles
-	#Site Styles
-	#Typography
-	#Links
-	#Lists
-	#Images
-	#Buttons
-	#Forms
-	#Misc */
+  #Reset & Basics
+  #Basic Styles
+  #Site Styles
+  #Typography
+  #Links
+  #Lists
+  #Images
+  #Buttons
+  #Forms
+  #Misc */
 
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
-	* {
-		margin: 0;
-		padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline; }
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-		display: block; }
-	body {
-		line-height: 1; }
-	ol, ul {
-		list-style: none; }
-	blockquote, q {
-		quotes: none; }
-	blockquote:before, blockquote:after,
-	q:before, q:after {
-		content: '';
-		content: none; }
-	table {
-		border-collapse: collapse;
-		border-spacing: 0; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+body {
+  line-height: 1; }
+ol, ul {
+  list-style: none; }
+blockquote, q {
+  quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
 
 /* #Basic Styles
 ================================================== */
-	
-	html { 
-  		background: url(../images/bg2.jpg) no-repeat center center fixed; 
-  		-webkit-background-size: cover;
- 		 -moz-background-size: cover;
- 		 -o-background-size: cover;
- 		 background-size: cover;
+  
+html { 
+  background: url(../images/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
-	body {
-		font: 22px "freight-text-pro", "Georgia", serif;
-		font-weight: 300;
-		line-height: 1.4;
-		color: #292929;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-		-webkit-text-size-adjust: 100%;
-		-webkit-hyphens: auto;
-		-moz-hyphens: auto;
-		-ms-hyphens: auto;
-		hyphens: auto;
-		word-wrap: break-word;
- }	
+body {
+  font: 22px "freight-text-pro", "Georgia", serif;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #292929;
+  height: 100%;
+  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+ }  
 
- 	.page-wrap {
- 		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  		display: -ms-flexbox;      /* TWEENER - IE 10 */
-  		display: -webkit-flex;     /* NEW - Chrome */
-  		display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 
+  .page-wrap {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
  }
 
- 	.logo {
- 		margin: 10% auto 0;
- 		max-width: 500px;
- 		height: 500px;
+ 
+ .logo_container {
+  display: table;
+  padding: 0;
+  border: 0;
+  height: 100%;
+ }
 
- 		
+  .logo {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  
+ }
+
+ .logo img {
+  max-width: 33%;
  }
