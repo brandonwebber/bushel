@@ -81,8 +81,7 @@ body {
  
  .logo_container {
   display: table;
-  padding: 0;
-  border: 0;
+  margin: 0 auto;
   height: 100%;
  }
 
@@ -94,5 +93,6 @@ body {
  }
 
  .logo img {
-  max-width: 33%;
+  max-width: 100%;
+  height: 100%;
  }
