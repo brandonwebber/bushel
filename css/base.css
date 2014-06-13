@@ -83,16 +83,16 @@ body {
   display: table;
   margin: 0 auto;
   height: 100%;
+  width: 33%;
  }
 
   .logo {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
   
  }
 
  .logo img {
-  max-width: 100%;
-  height: 100%;
+  width: 100%;
+
  }
