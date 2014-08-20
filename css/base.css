@@ -89,15 +89,19 @@ body {
   .logo {
   display: table-cell;
   vertical-align: middle;
-  
  }
 
  .logo img {
   width: 100%;
-
  }
 
- .details p {
+ .logo p {
+ 	padding-top: 12.5%;
  	font-family: 'PT Sans', sans-serif;
  	font-size: 16 px;
+ 	font-weight: 700;
+ 	text-align: center;
+ 	color: #fff;
+ 	text-transform: uppercase;
  }
+
