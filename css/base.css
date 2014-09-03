@@ -100,7 +100,7 @@ body {
  }
 
  .logo p {
- 	margin-top: 10%;
+ 	margin-top: 5%;
  	font-family: 'PT Sans', sans-serif;
  	font-size: 0.8em;
  	font-weight: 400;
@@ -117,5 +117,44 @@ body {
  .spacer {
  	padding-left: 2%;
  	padding-right: 2%;
+ }
+
+#mc_embed_signup{
+	clear:left;
+	font-family: 'PT Sans', sans-serif;
+ 	font-size: 0.8em;
+ 	font-weight: 400;
+ 	text-align: center;
+ 	color: #fff;
+ 	text-transform: uppercase;
+}
+
+.mc-field-group {
+	
+ 	margin-top: 5%;
+}
+
+ .button {
+ 	border: 0 none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding: 7px 10px;
+  text-transform: none;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  width: 16.795%; /* auto */
+  text-align: center; /* DELETE WHEN WIDTH AUTO */
+  &.green {
+    background: none repeat scroll 0 0 $green;
+    color: $white;
+    &:hover {
+      background: none repeat scroll 0 0 $dark;
+      color: $white;
+    }
  }
 
