@@ -149,7 +149,9 @@ body {
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   width: 16.795%; /* auto */
-  text-align: center; /* DELETE WHEN WIDTH AUTO */
+  text-align: center;
+  **/
+  /**
   &.green {
     background: none repeat scroll 0 0 $green;
     color: $white;
