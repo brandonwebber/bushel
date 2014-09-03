@@ -119,6 +119,7 @@ body {
  	padding-right: 2%;
  }
 
+/**
 #mc_embed_signup{
 	clear:left;
 	font-family: 'PT Sans', sans-serif;
@@ -157,4 +158,4 @@ body {
       color: $white;
     }
  }
-
+**/
