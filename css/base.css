@@ -88,8 +88,20 @@ body {
   width: 40%;
  }
 
+ .container {
+ 	display: table;
+  margin: 0 auto;
+  height: 100%;
+  width: 40%;
+ }
+
   .logo {
   display: table-cell;
+  vertical-align: middle;
+ }
+
+ .form {
+ 	isplay: table-cell;
   vertical-align: middle;
  }
 
